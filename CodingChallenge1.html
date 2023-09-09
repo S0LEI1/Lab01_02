@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1</title>
+</head>
+
+<body>
+    <script>
+        //  markMass = 95 ,
+        //     markHeight = 1.88,
+        //     johnMass = 85 ,
+        //     johnHeight = 1.76,
+        markMass = 78,
+            markHeight = 1.69,
+            johnMass = 92,
+            johnHeight = 1.95,
+            markBMI = markMass / (markHeight * markHeight),
+            johnBMI = johnMass / (johnHeight * johnHeight),
+            console.log('BMi Join:', markBMI);
+        console.log('BMi Join:', johnBMI);
+
+        var markHigherBMI = markBMI >= johnBMI;
+        if (markHigherBMI === true)
+            console.log('Mark higher');
+        else
+            console.log('John higher');
+    </script>
+</body>
+
+</html>
